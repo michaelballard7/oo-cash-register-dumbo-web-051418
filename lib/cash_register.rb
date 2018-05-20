@@ -33,7 +33,6 @@ quantity.times{items << title}
   
   def void_last_transaction
     @total -= @last_transaction[0]
-    
   end
   
   
